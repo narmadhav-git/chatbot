@@ -14,7 +14,6 @@ llm = ChatOpenAI(
     openai_api_key=os.getenv("NVIDIA_API_KEY"),
     openai_api_base=os.getenv("NVIDIA_API_BASE"),
     model_name=os.getenv("NVIDIA_MODEL")
-    
 )
 
 st.set_page_config("NVIDIA LLaMA Chatbot")
